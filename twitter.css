@@ -1,0 +1,28 @@
+body {
+    /* margin: 2rem 2rem; */
+    line-height: 2rem;
+}
+
+
+.nav-details li {
+    list-style: none;
+    
+    
+}
+
+.nav-details li i {
+    padding-right: 1rem;
+}
+
+button , .user {
+    margin-left: 3rem;
+}
+
+img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.user {
+    display: block;
+}

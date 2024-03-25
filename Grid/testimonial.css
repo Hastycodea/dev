@@ -1,0 +1,45 @@
+img {
+    width: 60px;
+    border-radius: 50%;
+    /* aspect-ratio: 1; */
+    float: left;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.testimonial-content {
+    padding-top: 2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.image {
+    background-color: aquamarine;    
+}
+
+.name h2 {
+    padding-top: 1.1rem;
+}
+
+.name {
+    line-height: .5rem;
+}
+
+.testimonial {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+
+} 
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.image:last-child {
+    grid-column: 4;    
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    grid-row: 1 / span 2;
+    background-color: brown;
+}
